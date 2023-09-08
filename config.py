@@ -9,7 +9,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://fast:leofast@cluster0.u8srkac.mongodb.net/?retryWrites=true&w=majority")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
-    SESSION = os.environ.get("SESSION", "")   
+    SESSION = os.environ.get("SESSION", "1BVtsOLEBuzeucprO-byVzWpPDQbIIxc3YjVLdajR80qJJIjeHWuIGH_4lw88uWaQBjPXGl-Hf-oBJUdmvQLBsEz7Mz_kvOFX2UJY4SI3hwfEdJ6HMy-JaaFoFkmCEvNHBqDgOCWNDu1eZ3PvwVAsPj2-c8F4mhnlRI-rGCOWYDjlc9NNsZTOG3oqye664RK2pneAUQublxtGjwW0SSJeLvAg3slJqYrTEdBUmm3VgKtbi1EXpkquiKHjpB2geIFHnLtdZoOSAFW7MW816OmlMaUJaqkXXqy331INy8eDDmQDwno7-SXbdpUAqFwm-aQIC7YySnYRDpMsaON0PNNafBAhLTuCrHc=")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001918596333"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "uniquifyleo_bot")
 
